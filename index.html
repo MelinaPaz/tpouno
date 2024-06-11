@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultorio Medico Curitas</title>
+    <h1>CONSULTORIO MEDICO CURITAS</h1>
+    <button>Nosotros</button>
+    <button>Especialistas</button>
+</head>
+<!--El objetivo de los botones es de dirigir a otra seccion de la pagina si existiera y asi amplicar la informacion que se muestra en el inicio-->
+<body>
+    <!--PRIMERA SECCION-->
+    <!--Breve resumen de la mision del consultorio para generar confianza en el usuario-->
+    <section>
+        <div>
+            <h2>Sobre nosotros</h2>
+            <p>Nacimos el 12 de Mayo de 2023, Ubicados en el barrio de Liniers. Nuestra misión es ofrecer un servicio de salud accesible y nos interesa promover el conocimiento del mismo. Desde el inicio nos enfocamos en profundizar nuestra vocación al servicio de la comunidad, buscando mejorar nuestra atención, infraestructura y calidad.</p>
+        </div>
+        <div>
+            <video src="video/7089365-sd_640_360_25fps.mp4" autoplay muted loop></video>
+        </div>
+        <div>
+            <button>Ver mas</button>
+        </div>
+    </section>
+    <!--SEGUNDA SECCION-->
+    <!--Las areas de salud en las que se trabaja en el consultorio. ordenadas alfabeticamente para que sean mas facil de buscar visualmente. Asi como la posivilidad de una comunicacion virtual en el area de psicologia para demostrar un poco la implementacion de la tecnologia-->
+    <section>
+        <div>
+            <h2>Nuestras Especialidades</h2>
+            <ul>
+                <li><b>En persona:</b></li>
+                <ul>
+                    <li>Clínica Médica</li>
+                    <li>Ginecología</li>
+                    <li>Hematología</li>
+                    <li>Kineriología</li>
+                    <li>Nutrición</li>
+            </ul>
+
+                <li><b>En persona o virtual:</b></li>
+                <ul>
+                    <li>Psicología</li>
+                </ul>
+                
+            </ul>
+        </div>
+    
+    </section>
+    <!--TERCERA SECCION-->
+    <!--comentario personal:me llamaba mucho la atencion utilizar un audio de voz, pero que no fuera podcast. sino un contacto mas real con el usuario. 
+    El audio fue generaro por medio de IA. Utilice la lista ordenada para ordenar por prioridad y el boton para amplicar informacion sobre el equipo-->
+
+    <section>
+        <div>
+            <h2>¡Conoce a nuestros especialistas!</h2>
+        </div>
+        <div>
+            <img src="img/pexels-jeff-denlea-721292-3714743.jpg" alt="15">
+        </div>
+        <div>
+            <audio src="audio/Hola Mi nombre es Be.mp3" controls></audio>
+        </div>
+        <div>
+            <p>
+                <em><b>"Hola!</b>Mi nombre es Beatriz y formo parte del equipo medico de Curitas. Como nutrióloga te invito a que leas estas 3 recomendaciones básicas para iniciar buenos hábitos en tu día a día. Saludos"
+                </em>
+                <ol>
+                    <li>Toma suficiente agua</li>
+                    <li>Modera la cantidad de azucar que vas a ingerir en tus alimentos</li>
+                    <li>Come mas verduras y frutas frescas</li>
+                </ol>
+                <p><b>Recuerda:</b>Puedes sacar un turno para una atención mas personalizada :) </p>
+            </p>
+        </div>
+        <div>
+            <button>Sigue Conociendo</button>
+        </div>
+    </section>
+    <!--CUARTA SECCION-->
+    <!--Aproveche informacion extraida de youtube sobre el rcp y la salud para aplicar links externos y que el usuario pueda explorar en una ventana nueva ,si le interesa-->
+    <section>
+        <div>
+            <h2>¡Esto podria interesarte!</h2>
+            <p>"Te invitamos a ver este video intructivo para que puedas aprender técnicas de Reanimación Cardiopulmonar (RCP) y así puedas conocer más sobre esta gran labor ciudadana"</p>
+        </div>
+        <div>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/EWGVc5kzb4Y?si=tYUYSrjRnmLNH2Wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div>
+            <p>Ingresa a este <a href="https://www.youtube.com/@American_Heart" target="_blank">link</a> y descubre más de American Heart Association</p>
+        </div>
+    </section>
+    <!--QUINTA SECCION-->
+    <!--Antes del final hice dos formularios de acuerdo a si el usuario era nuevo o no. El DNI lo puse como type="text" ya que me interesara limitar los caracteres-->
+    <section>
+        <div>
+            <h2>Reserva de Turnos</h2>
+            <p><b>Solo podrán sacar turno pacientes ya registrados</b></p>
+        </div>
+        <div>
+            <form>
+                <label>DNI:</label>
+                <input type="text" placeholder="Ej:44444444" maxlength="8" minlength="8">
+
+                <label>Correo electronico</label>
+                <input type="email" placeholder="4444@gmail.com">
+
+                <button>Ingresar</button>
+            </form>
+        </div>
+        <div>
+            <p><b>Si usted es nuevo y desea registrarse por favor complete el siguiente formulario:</b></p>
+        </div>
+        <div>
+            <form>
+                <h2>Ingreso al Sistema:</h2>
+                <label>Nombre/s:</label>
+                <input type="text"placeholder=Ingrese su/s nombre/s>
+
+                <label>Apellido/s:</label>
+                <input type="text"placeholder=Ingrese su/s apellido/s>
+
+                <label>Edad:</label>
+                <input type="number" placeholder="Ingrese su edad" max="120" min="18">
+
+                <label>DNI:</label>
+                <input type="text" placeholder="Ingrese su DNI sin puntos" maxlength="8" minlength="8">
+
+                <label>Correo electronico:</label>
+                <input type="email" placeholder="Ingrese su correo">
+                <button>Registrarse</button>
+
+            </form>
+        </div>
+    </section>
+</body>
+<!--SECCION FINAL-->
+<!--Para el final deje la informacion de contacto y ubicacion con el mapa , asi es más facil orientarse-->
+<footer>
+    <div>
+        <h2>Ubicación</h2>
+        <p>Pola 444, Buenos Aires, Argentina</p>
+    </div>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.4607069549147!2d-58.51143142494147!3d-34.64306625957603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc84d494b27b3%3A0x529005b1397aae09!2sPola%20444%2C%20C1408HJJ%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1715568555665!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div>
+        <h2>Telefonos</h2>
+        <p>4444-4444/4444-4445</p>
+    </div>
+    <div>
+        <h2>Horarios</h2>
+        <p>Lunes a Sabados: 8:00 a.m hasta las 16:00 p.m</p>
+        <p>Domingo Cerrado</p>
+    </div>
+</footer>
+</html>
+
+<!--La pagina que utilicé de referencia fue https://cmleguizamon.com/index.html -->
+<!--Fue muy interesante realizar el trabajo practico. Muchas gracias por la devolucion profe!-->
+
